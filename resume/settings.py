@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'jlo(h3y-@0jwa7893pnn51ymu!68k+$+v47mnka-el5b*#0myn'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['manikandan-resume.herokuapp.com','127.0.0.1']
 
