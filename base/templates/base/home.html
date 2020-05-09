@@ -1,0 +1,90 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Manikandan Django</title>
+	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+</head>
+<body>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100  border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images/img3.jpg' %}" >
+					<hr>
+					<h4>Hi I'm Manikandan!</h4>
+					<p>I love coding, A budding dev and ML Enthusiast</p>
+				</div>
+			</div>
+
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h4>My Learnings</h4>
+					<hr>
+					<p>From writing my first ML Hello world on Jan(2020), I'm a practicing Machine Learning Engineer. I have built an Image classification system as my budding ML project and I'm on my learnig phase to be a better ML Engineer.</p>
+
+					<p>Started Django as a hobby, and learnt to be a better django dev. Self-paced Django intermediate, built some small Django web Engines as a part of learning process.</p>
+
+					<p> worked on many independent projects and pushed them to github. </p>
+
+					<ul class="social-links">
+						<li><a href = "https://www.instagram.com/_7_bit_encrypted_/" target = "_self"><img class="social" src="{% static 'images/instagram.png' %}"></a></li>
+						<li><a href = "https://www.linkedin.com/in/manikandan-prabhakaran-953a95160/" target = "_self"><img class="social" src="{% static 'images/linkedin.png' %}"></a></li>
+						<li><a href = "https://github.com/Maniddarky" target = "_self"><img class="social" src="{% static 'images/github.png' %}"></a></li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Works</h5>
+					<hr>
+					<p>Built a Gesture Controlled diffrential drive robot using Image classification. Built an SVM image classification Engine which classifies hand gestures. </p>
+					<p>Designed and built a Craiglist Scaper and Weather app works by weather API using Django, built a movie recommendation model using correlaton(ML).</p>
+					</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>What I Know</h5>
+					<hr>
+					<p>Python, Django, HTML, Java, SQL, C/C++, Image Processing, openCV, Machine Learning(intermediate) ;)</p>
+					<p>PS: Currently concentrating on Machine Learning/Data Science, Django </p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>How I Learn</h5>
+					<hr>
+					<p>Started learnig from online MOOCS offered by coursera, Udacity...</p>
+
+					<p>I usually learn by building new things, Working on projects and tearing a project into piece by piece than reading documentations and pdfs. That's dynamic isn't it!.</p>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Short Term Goals</h5>
+				<hr>
+			    <p>I am the one who loves coding. I wanna be a Exreme Full-stack dev, I want to Explore a lot in Full-Stack development.</p>
+				<p>I also want to be better ML Engineer, I accidentally felt in love with ML. I wanna build more and more ML models and also wanna be an Explorer in ML.</p>
+
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+
+
+</body>
+</html>
